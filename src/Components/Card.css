@@ -1,0 +1,36 @@
+.card{
+    background-color: #a8b8ff;
+    height: 300px;
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin: 3rem;
+    
+}
+.card:hover{
+    background-color: #a8b8ff;
+    height: 300px;
+    width: 26%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    transform: scale(1.04);
+    transition:0.5s;
+    
+  }
+.cardtop img{
+        height: 80%;
+        width: 100%;
+        position: relative;
+        bottom:10px;
+}
+.nameofcard{
+        margin-bottom: 50px;
+        font-size: 1.4rem;
+}
